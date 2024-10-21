@@ -1,0 +1,91 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .calcTheme {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            margin-top: 20px;
+            font-weight: 700;
+        }
+
+        .theme {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            p {
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 12px;
+            }
+
+            .inps {
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 5px;
+
+                .item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    input {
+                        margin-top: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .display {
+        width: 100%;
+        height: 60px;
+        margin-top: 10px;
+        border-radius: 5px;
+        
+
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            text-align: right;
+            padding: 10px 15px;
+            font-size: 25px;
+            background: none;
+        }
+    }
+    .calcBtns {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 15px;
+        margin-top: 20px;
+        padding: 20px;
+
+
+        input {
+            cursor: pointer;
+            height: 35px;
+            color: 32px;
+            border-radius: 8px;
+        }
+
+        .reset {
+            grid-column: 1 / span 2;
+        }
+        .equal {
+            grid-column: 3 / span 2;
+        }
+    }
+}

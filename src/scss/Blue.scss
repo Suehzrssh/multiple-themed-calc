@@ -1,0 +1,58 @@
+#blue, .container {
+    color: hsl(0, 0%, 90%);
+
+    form {
+        .display {
+            background-color: hsl(224, 36%, 15%);
+            
+            input {
+                color: hsl(0, 0%, 90%);;
+            }
+        }
+        .calcBtns {
+            background-color: hsl(223, 31%, 20%);
+            border-radius: 5px;
+
+            input {
+                color: hsl(221, 14%, 31%);
+                font-weight: 700;
+                font-size: 16px;
+                background-color: hsl(30, 25%, 89%);
+                border: none;
+                transition: .3s;
+
+                &:hover {
+                    box-shadow: 0 2px 0 0 hsl(28, 16%, 65%);
+                }
+
+                &.del {
+                    text-transform: uppercase;
+                    background-color: hsl(225, 21%, 49%);
+                    color: hsl(0, 0%, 100%);
+
+                    &:hover {
+                        box-shadow: 0 3px 0 0 hsl(224, 28%, 35%);
+                    }
+                }
+                &.reset {
+                    text-transform: uppercase;
+                    background-color: hsl(225, 21%, 49%);
+                    color: hsl(0, 0%, 100%);
+
+                    &:hover {
+                        box-shadow: 0 3px 0 0 hsl(224, 28%, 35%);
+                    }
+                }
+                &.equal {
+                    text-transform: uppercase;
+                    background-color: hsl(6, 63%, 50%);
+                    color: hsl(0, 0%, 100%);
+
+                    &:hover {
+                        box-shadow: 0 3px 0 0 hsl(6, 70%, 34%);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+}
+
+#blue{
+    background-color: hsl(222, 26%, 31%);
+}
+
+
+
+#white {
+    background-color: hsl(0, 0%, 90%);
+}
+
+#red {
+    background-color: hsl(268, 75%, 9%);
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 0;
+
+    
+
+    .calculator {
+        width: 22%;
+        height: 80%;
+
+        
+    }
+}
